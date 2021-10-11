@@ -48,6 +48,9 @@
     "@babel/register": "^7.10.1",
     "@mui/icons-material": "^5.0.0-beta.1",
     "@mui/material": "^5.0.0-beta.1",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/styles": "^5.0.1",
     "@rollup/plugin-babel": "5.0.2",
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
@@ -98,13 +101,13 @@
     "@mui/icons-material": "^5.0.3",
     "@mui/material": "^5.0.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/styles": "^5.0.1"
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.12.1",
-    "@emotion/react": "^11.4.1",
-    "@emotion/styled": "^11.3.0",
-    "@mui/styles": "^5.0.1",
     "clsx": "^1.1.1",
     "lodash.assignwith": "^4.2.0",
     "lodash.clonedeep": "^4.5.0",

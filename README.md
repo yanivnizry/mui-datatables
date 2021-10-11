@@ -350,7 +350,7 @@ Using Material-UI theme overrides will allow you to customize styling to your li
 ```js
 import React from "react";
 import MUIDataTable from "mui-datatables";
-import { createMuiTheme, MuiThemeProvider } from '@mui/material/styles';
+import { createTheme as createMuiTheme, ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
 
 class BodyCellExample extends React.Component {
 
