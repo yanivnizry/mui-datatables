@@ -2,7 +2,7 @@ import React, { Fragment, Component } from "react";
 import { Waypoint } from "react-waypoint";
 import PropTypes from "prop-types";
 import MUIDataTable from "../../src/";
-import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
+import { createTheme as createMuiTheme, ThemeProvider as MuiThemeProvider  } from "@mui/material/styles";
 import {
   withStyles,
   Table,
@@ -11,7 +11,7 @@ import {
   TableHead,
   TableRow,
   Paper
-} from "@material-ui/core";
+} from "@mui/material";
 
 const styles = theme => ({
   root: {

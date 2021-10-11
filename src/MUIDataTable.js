@@ -1,5 +1,5 @@
-import { Paper, Table as MuiTable, Tooltip as MuiTooltip } from '@material-ui/core';
-import { withStyles } from '@material-ui/styles';
+import { Paper, Table as MuiTable, Tooltip as MuiTooltip } from '@mui/material';
+import { withStyles } from '@mui/styles';
 import clsx from 'clsx';
 import assignwith from 'lodash.assignwith';
 import cloneDeep from 'lodash.clonedeep';

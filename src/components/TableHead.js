@@ -1,5 +1,5 @@
-import { makeStyles } from '@material-ui/styles';
-import { TableHead as MuiTableHead } from '@material-ui/core';
+import { makeStyles } from '@mui/styles';
+import { TableHead as MuiTableHead } from '@mui/material';
 import clsx from 'clsx';
 import React, { useState } from 'react';
 import TableHeadCell from './TableHeadCell';

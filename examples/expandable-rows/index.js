@@ -1,9 +1,9 @@
  import React from "react";
 import ReactDOM from "react-dom";
 import MUIDataTable, {ExpandButton} from "../../src/";
-import TableRow from "@material-ui/core/TableRow";
-import TableCell from "@material-ui/core/TableCell";
-import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import TableRow from "@mui/material/TableRow";
+import TableCell from "@mui/material/TableCell";
+import { ThemeProvider as MuiThemeProvider, createTheme as createMuiTheme } from "@mui/material/styles";
 
 class Example extends React.Component {
 

@@ -36,7 +36,7 @@ Version 3 has been released! You can read about the [updates here](https://githu
 
 `npm install mui-datatables --save`
 
-If your project doesn't already use them, you need to install `@material-ui/core` and `@material-ui/icons` as well.
+If your project doesn't already use them, you need to install `@mui/material` and `@mui/icons-material` as well.
 
 ## Demo
 
@@ -350,7 +350,7 @@ Using Material-UI theme overrides will allow you to customize styling to your li
 ```js
 import React from "react";
 import MUIDataTable from "mui-datatables";
-import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
+import { createMuiTheme, MuiThemeProvider } from '@mui/material/styles';
 
 class BodyCellExample extends React.Component {
 
@@ -382,7 +382,7 @@ class BodyCellExample extends React.Component {
 You can pass custom components to further customize the table:
 ```js
 import React from "react";
-import Chip from '@material-ui/core/Chip';
+import Chip from '@mui/material/Chip';
 import MUIDataTable, { TableFilterList } from "mui-datatables";
 
 const CustomChip = ({ label, onDelete }) => {
